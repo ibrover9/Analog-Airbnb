@@ -1,0 +1,59 @@
+input {
+  width: 70%;
+  margin: 0 0 0 5em;
+  padding-left: 1em;
+  border: 1px solid rgb(184, 184, 184);
+  height: 4.5em;
+}
+
+.welcome {
+  font-weight: 600;
+  font-size: 21px;
+  padding: 1.5em 0 0 3.2em;
+}
+
+.labelFirst {
+  position: absolute;
+  margin-top: 2.5em;
+  top: 0;
+  left: 5em;
+}
+.labelSecond {
+  margin-top: 1.25em;
+  position: absolute;
+  top: 0;
+  left: 5em;
+}
+label {
+  transition: 0.3s ease-in-out;
+  color: rgb(123, 123, 123);
+}
+
+input:focus + label,
+input:valid + label {
+  left: 6em;
+  font-size: 0.75em;
+  top: -10px;
+  pointer-events: none;
+}
+
+.inputAuthorization {
+  outline: none;
+}
+
+.fieldHolder {
+  position: relative;
+}
+
+.privacyPolicy {
+  font-size: 11px;
+  padding: 1em 6em 1em 6em;
+}
+
+.buttonContinue {
+  padding: 1em 10.5em;
+  margin: 0 4em;
+  background-color: rgb(242, 26, 98);
+  color: white;
+  border-radius: 0.75em;
+}

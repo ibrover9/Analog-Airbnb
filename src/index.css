@@ -1,0 +1,24 @@
+@import-normalize;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Optional: Ensures padding and border are included in the element's total width and height */
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+hr {
+  border: 1px rgb(234, 234, 234) solid;
+}
+
+.Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.HeaderMainPage {
+  position: relative;
+}

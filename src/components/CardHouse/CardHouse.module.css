@@ -1,0 +1,27 @@
+.CardHouse {
+  margin: 1em;
+}
+
+.imgHouse {
+  min-height: 15em;
+  background-color: rgb(255, 87, 87);
+  min-width: 15em;
+  max-width: 15em;
+  max-height: 15em;
+  border-radius: 1em;
+}
+
+.firstString {
+  display: flex;
+  justify-content: space-between;
+  min-width: 15em;
+  max-width: 155em;
+  padding: 0.3em;
+}
+.secondString {
+  padding: 0.2em;
+}
+
+.star {
+  color: rgb(255, 87, 87);
+}

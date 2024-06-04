@@ -1,0 +1,175 @@
+.movieInformationCard {
+}
+
+.Header {
+  /* display: flex;
+  justify-content: left; */
+  margin-top: 1em;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mainMovieInformationCard {
+  margin-left: 4.5em;
+}
+
+.hr {
+  width: 100%;
+  padding: 0;
+  margin: 0em;
+}
+
+.blockAllImg {
+  display: flex;
+}
+
+.mainImgBlock {
+  display: flex;
+}
+
+.mainImgHouse {
+  min-height: 23em;
+  background-color: rgb(255, 87, 87);
+  min-width: 21em;
+  max-width: 33.9em;
+  max-height: 23em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+
+  margin-top: 1em;
+}
+
+.imgHouse {
+  min-height: 10.9em;
+  background-color: rgb(255, 87, 87);
+  min-width: 15em;
+  max-width: 11em;
+  max-height: 10.9em;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.imgHouseLeftBottom {
+  border-bottom-right-radius: 1em; /* Закругление правого нижнего угла */
+}
+
+.imgHouseLeftTop {
+  border-top-right-radius: 1em; /* Закругление правого нижнего угла */
+}
+
+.addressHouse {
+  font-size: 22px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.amenitiesHeader {
+  font-size: 22px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.information {
+  display: flex;
+}
+
+.leftInformation {
+  min-width: 40em;
+  max-width: 40em;
+}
+.rightInformation {
+  margin-left: 3em;
+  margin-top: 1.7em;
+  padding-top: 1.3em;
+  padding-left: 1em;
+  min-width: 24em;
+  min-height: 29em;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* Тень со всех сторон */
+  border-radius: 1em;
+  border: 1px gray solid;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 1em;
+}
+.datePicker {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  max-width: 25em;
+}
+
+.datePickerLeft {
+  margin-left: 2em;
+  padding: 0px;
+  height: 3.5em;
+  margin-top: 1.3em;
+  padding-left: 1em;
+  width: 11em;
+  border-top-left-radius: 1em;
+}
+
+.datePickerRight {
+  margin: 0;
+  padding: 0;
+  height: 3.5em;
+  margin-top: 1.3em;
+  padding-left: 1em;
+  width: 11em;
+  border-top-right-radius: 1em;
+}
+
+.datePickerRightAndLeft {
+  margin-left: 2em;
+  display: block;
+  height: 3.5em;
+  padding-left: 1em;
+  width: 22em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.buttonFinishDate {
+  display: block;
+  margin-left: 1.5em;
+  margin-top: 1.3em;
+  background-color: rgb(255, 87, 87);
+  color: white;
+  min-width: 14.5em;
+  min-height: 3em;
+  border-radius: 1em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.behindWhatTime {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.amenities {
+  min-width: 10em;
+}
+
+.amenitiesBlock {
+  display: flex;
+}
+
+.twoAmenitiesBlock {
+  display: flex;
+  min-width: 45em;
+  margin-bottom: 2em;
+}
+
+.oneAmenitiesBlock {
+  display: flex;
+  min-width: 22.5em;
+  justify-content: left;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}

@@ -1,0 +1,7 @@
+.CardsHouse {
+  /* background-color: rgb(255, 140, 0); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}

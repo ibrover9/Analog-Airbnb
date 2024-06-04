@@ -1,0 +1,181 @@
+.SearchFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 11.5em 1.5em;
+  padding: 0;
+  font-size: 14px;
+  /* min-width: 70em; */
+  height: 4em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+  border: 1px rgb(192, 192, 192) solid;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.headerFilterWhere {
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.inputFilterWhere {
+  font-size: 16px;
+  width: 15em;
+  height: 1.5em;
+  margin: 0;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+}
+
+.filterWhere {
+  background-color: rgb(255, 255, 255);
+  padding-left: 2em;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+  min-width: 22em;
+  border: 1px rgb(192, 192, 192) solid;
+  border-right: none;
+}
+
+.filterWhere:hover,
+.filterWhere:hover .inputFilterWhere {
+  background-color: rgb(199, 199, 199);
+  border-radius: 2em;
+}
+
+.filterWhere .inputFilterWhere:focus {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+.filterWhere:focus-within {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+
+.headerFilterArrival {
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.inputFilterArrival {
+  font-size: 16px;
+  width: 6em;
+  height: 1.5em;
+  margin: 0;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+}
+
+.filterArrival {
+  background-color: rgb(255, 255, 255);
+  padding-left: 2em;
+  min-width: 10em;
+}
+
+.filterArrival:hover,
+.filterArrival:hover .inputFilterArrival {
+  background-color: rgb(199, 199, 199);
+  border-radius: 2em;
+}
+
+.filterArrival .inputFilterArrival:focus {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+.filterArrival:focus-within {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+
+.headerFilterDeparture {
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.inputFilterDeparture {
+  font-size: 16px;
+  width: 6em;
+  height: 1.5em;
+  margin: 0;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+}
+
+.filterDeparture {
+  background-color: rgb(255, 255, 255);
+  padding-left: 2em;
+
+  min-width: 10em;
+}
+
+.filterDeparture:hover,
+.filterDeparture:hover .inputFilterDeparture {
+  background-color: rgb(199, 199, 199);
+  border-radius: 2em;
+}
+
+.filterDeparture .inputFilterDeparture:focus {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+.filterDeparture:focus-within {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+
+.headerFilterWho {
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.inputFilterWho {
+  font-size: 16px;
+  width: 15em;
+  height: 1.5em;
+  margin: 0;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+}
+
+.filterWho {
+  background-color: rgb(255, 255, 255);
+  padding-left: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  min-width: 22em;
+  border: 1px rgb(192, 192, 192) solid;
+  border-left: none;
+}
+
+.filterWho:hover,
+.filterWho:hover .inputFilterWho {
+  background-color: rgb(199, 199, 199);
+  border-radius: 2em;
+}
+
+.filterWho .inputFilterWho:focus {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+.filterWho:focus-within {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+}
+
+.verticalLine {
+  border-left: 1px solid rgb(199, 199, 199); /* Левая граница делает вертикальную линию */
+  height: 3em; /* Высота линии */
+  margin: 0 10px; /* Пример отступов по бокам */
+}
